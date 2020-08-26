@@ -1,7 +1,11 @@
 {
   "name": "react-lib-template",
   "version": "1.0.0",
+  "description": "",
   "main": "dist/index.js",
+  "keywords": [
+    "react"
+  ],
   "repository": "https://github.com/malcodeman/react-lib-template.git",
   "author": "malcodeman",
   "license": "MIT",
@@ -10,6 +14,10 @@
   },
   "devDependencies": {
     "parcel": "^2.0.0-beta.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "peerDependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }
